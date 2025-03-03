@@ -3,10 +3,9 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/tr1xem/hyprfabricated?style=for-the-badge&logo=github&color=FFB686&logoColor=D9E0EE&labelColor=292324)](https://github.com/tr1xem/hyprfabricated/stargazers)
+<!-- [![GitHub stars](https://img.shields.io/github/stars/Shubham-550/hyprfabricated?style=for-the-badge&logo=github&color=FFB686&logoColor=D9E0EE&labelColor=292324)](https://github.com/Shubham-550/hyprfabricated/stargazers) -->
 [![Hyprland](https://img.shields.io/badge/Made%20for-Hyprland-pink?style=for-the-badge&logo=linux&logoColor=D9E0EE&labelColor=292324&color=C6A0F6)](https://hyprland.org/)
-[![Maintained](https://img.shields.io/badge/Maintained-Yes-blue?style=for-the-badge&logo=linux&logoColor=D9E0EE&labelColor=292324&color=3362E1)]()
-[![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/vfSCyFZ6t2)](https://discord.gg/vfSCyFZ6t2)
+<!-- [![Maintained](https://img.shields.io/badge/Maintained-Yes-blue?style=for-the-badge&logo=linux&logoColor=D9E0EE&labelColor=292324&color=3362E1)]() -->
 
 </div>
 <p align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /> <sup>A ʜᴀᴄᴋᴀʙʟᴇ sʜᴇʟʟ ꜰᴏʀ Hʏᴘʀʟᴀɴᴅ, ᴘᴏᴡᴇʀᴇᴅ ʙʏ <a href="https://github.com/Fabric-Development/fabric/">Fᴀʙʀɪᴄ</a>. </sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /></p>
@@ -42,45 +41,48 @@
 > - If you see a transparent bar just change the wallpaper from notch > wallpaper as then it would gen color configs
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tr1xem/hyprfabricated/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Shubham-550/hyprfabricated/main/install.sh | bash
 ```
 
 ### Manual Installation
+
 1. Install dependencies:
-    - [Fabric](https://github.com/Fabric-Development/fabric)
-    - [fabric-cli](https://github.com/Fabric-Development/fabric-cli)
-    - [Gray](https://github.com/Fabric-Development/gray)
-    - [Matugen](https://github.com/InioX/matugen)
-    - `acpi`
-    - `auto-cpufreq`
-    - `playerctl`
-    - `gnome-bluetooth-3.0`
-    - `grimblast`
-    - `hypridle`
-    - `hyprlock`
-    - `hyprpicker`
-    - `hyprsunset`
-    - `imagemagick`
-    - `libnotify`
-    - `swww`
-    - `uwsm`
-    - `vte3`
-    - `cantarell-fonts-0.100`
-    - `wlinhibit`
-    - Python dependencies:
-        - pillow
-        - toml
-        - setproctitle
-        - watchdog
-    - Fonts (automated on first run):
-        - Zed Sans
-        - Tabler Icons
+
+   - [Fabric](https://github.com/Fabric-Development/fabric)
+   - [fabric-cli](https://github.com/Fabric-Development/fabric-cli)
+   - [Gray](https://github.com/Fabric-Development/gray)
+   - [Matugen](https://github.com/InioX/matugen)
+   - `acpi`
+   - `auto-cpufreq`
+   - `playerctl`
+   - `gnome-bluetooth-3.0`
+   - `grimblast`
+   - `hypridle`
+   - `hyprlock`
+   - `hyprpicker`
+   - `hyprsunset`
+   - `imagemagick`
+   - `libnotify`
+   - `swww`
+   - `uwsm`
+   - `vte3`
+   - `cantarell-fonts-0.100`
+   - `wlinhibit`
+   - Python dependencies:
+     - pillow
+     - toml
+     - setproctitle
+     - watchdog
+   - Fonts (automated on first run):
+     - Zed Sans
+     - Tabler Icons
 
 2. Download and run Ax-Shell:
-    ```bash
-    git clone https://github.com/tr1xem/hyprfabricated.git ~/.config/hyprfabricated
-    uwsm -- app python ~/.config/hyprfabricated/main.py > /dev/null 2>&1 & disown
-    ```
+
+   ```bash
+   git clone https://github.com/Shubham-550/hyprfabricated.git ~/.config/hyprfabricated
+   uwsm -- app python ~/.config/hyprfabricated/main.py > /dev/null 2>&1 & disown
+   ```
 
 <h2><sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></sub> Roadmap</h2>
 

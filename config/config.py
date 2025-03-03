@@ -183,7 +183,7 @@ exec = pgrep -x "hypridle" > /dev/null || uwsm app -- hypridle
 exec = uwsm app -- swww-daemon
 
 $fabricSend = fabric-cli exec hyprfabricated
-$axMessage = notify-send "tr1x_em" "What are you doing?" -i "{home}/.config/hyprfabricated/assets/ax.png" -a "Source Code" -A "Be patient. 🍙"
+$axMessage = notify-send "Shubham" "What are you doing?" -i "{home}/.config/hyprfabricated/assets/ax.png" -a "Source Code" -A "Be patient. 🍙"
 
 bind = {bind_vars['prefix_restart']}, {bind_vars['suffix_restart']}, exec, killall hyprfabricated cava; uwsm app -- python {home}/.config/hyprfabricated/main.py # Reload hyprfabricated | Default: SUPER ALT + B
 bind = {bind_vars['prefix_axmsg']}, {bind_vars['suffix_axmsg']}, exec, $axMessage # Message | Default: SUPER + A
